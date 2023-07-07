@@ -20,12 +20,13 @@ const App = () => {
         <div>Currently selected: </div>
         <div className={selectedColor}>{selectedColor}</div>
       </div>
-      <div id="colors-list">
-      { 
+      
+       
+        <div id="colors-list">
     <Color color= "violet" setSelectedColor = {setSelectedColor}/>
     <Color color = "blue"  setSelectedColor = {setSelectedColor}/>
     <Color  color = "green" setSelectedColor = {setSelectedColor}/>
-    }
+    
   </div>
     </div>
   );
